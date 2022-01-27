@@ -11,11 +11,13 @@
 <body>
     <main class="container">
         <section class="box">
-            <form>
-                <textarea name="mensagem" placeholder="Insira o texto" rows="4" cols="50">
+            <div class="card">
+                <form>
+                    <textarea name="mensagem" placeholder="Insira o texto" rows="4" cols="50">
 
-                </textarea>
-            </form>
+                    </textarea>
+                </form>
+            </div>
         </section>
     </main>
 </body>

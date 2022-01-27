@@ -18,6 +18,10 @@
 
 .box{
     width: auto;
-    height: 300px;
+    height: auto;
     background: #fff;
+}
+
+.card{
+    padding: 2%;
 }
