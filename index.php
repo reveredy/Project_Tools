@@ -5,24 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de textos</title>
+
+    <link rel="stylesheet" href="_css/style.css" type="text/css">
 </head>
 <body>
-    <header>
-        <article>
-            <h1>Site de formatação de textos</h1>
-        </article>
-    </header>
-    <body>
-        <section>
+    <main class="container">
+        <section class="box">
             <form>
-                <textarea>
+                <textarea name="mensagem" placeholder="Insira o texto" rows="4" cols="50">
 
                 </textarea>
             </form>
         </section>
-    </body>
-    <footer>
-
-    </footer>
+    </main>
 </body>
 </html>
