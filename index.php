@@ -12,11 +12,14 @@
     <main class="container">
         <section class="box">
             <div class="card">
-                <form>
-                    <textarea name="mensagem" placeholder="Insira o texto" rows="4" cols="50">
-
-                    </textarea>
-                </form>
+                <div style="text-align: center;">
+                    <h1>Conversor de textos</h1>
+                    <form method="post" action="index.php">
+                        <label for="texto">Texto:</label>
+                        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Converter">
+                    </form>
+                </div>
             </div>
         </section>
     </main>
