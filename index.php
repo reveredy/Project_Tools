@@ -12,14 +12,30 @@
     <main class="container">
         <section class="box">
             <div class="card">
-                <div style="text-align: center;">
-                    <h1>Conversor de textos</h1>
+                <div style="text-align: center; padding: 5%;">
+                    <div>    
+                        <h1 class="titulo">CONVERSOR DE TEXTOS</h1>
+                    </div>
                     <form method="post" action="index.php">
-                        <label for="texto">Texto:</label>
-                        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Converter">
+                        <div>    
+                            
+                        </div>
+                        <div>
+                            <textarea name="texto" placeholder="Insira seu texto aqui!"></textarea>
+                        </div>
+                        <div class="button">
+                            <div class="btn_button">
+                                <button type="submit" class ="btn" name="maiusculo">MAIÚSCULO</button>
+                                <button type="submit" class ="btn" name="minusculo">minúsculo</button>
+                                <button type="submit" class ="btn" name="camelCase">Camel Case</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
+            </div>
+
+            <div class="saida">
+                    <p id="texto">TESTE</p>
             </div>
         </section>
     </main>
