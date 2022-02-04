@@ -1,4 +1,4 @@
 # Project_Tools
 
-<h3>Modelo de Explo</h3>
+<h3>Modelo de Exemplo</h3>
 <img src="modeloEx.png" alt="modelo" width="500px">
